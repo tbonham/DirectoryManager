@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-beta</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>None</Company>
+    <Authors>Thomas</Authors>
+    <PackageProjectUrl>https://github.com/tbonham/DirectoryManager</PackageProjectUrl>
+    <!--<PackageIconUrl>http://static.threenine.co.uk/threeninemap_icon.png</PackageIconUrl>-->
+    <!--<PackageTags>generic repository</PackageTags>-->
+    <Copyright>Copyright 2020</Copyright>
+    <Description>Directory Manger</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/tbonham/DirectoryManager</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.FileSystem.AccessControl" Version="4.4.0" />
+    <PackageReference Include="System.Security.AccessControl" Version="4.4.1" />  
+  </ItemGroup>
+
+</Project>
